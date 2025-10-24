@@ -2,7 +2,18 @@ using UnityEngine;
 
 public class CellObject : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    protected Vector2Int MCell;
+
+    public virtual bool PlayerWantsToEnter()
+    {
+        return true;
+    }
+    public virtual void Init(Vector2Int cell)
+    {
+        MCell = cell; 
+    }
+ 
     public virtual void PlayerEntered()
     {
 

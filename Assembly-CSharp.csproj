@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CellObject.cs" />
+    <Compile Include="Assets\Scripts\WallObject.cs" />
     <Compile Include="Assets\Scripts\FoodObject.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\TurnManager.cs" />

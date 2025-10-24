@@ -66,11 +66,24 @@ public class PlayerController : MonoBehaviour
             if(cellData != null && cellData.Passable)
             {
                 GameManager.Instance.Turn.Tick();
+                /*
                 MoveTo(newCellTarget);
 
                 if (cellData.ContainedObject != null)
                 {
-                    Debug.Log("llegas a cellData.ContainedObject !=null");
+                    cellData.ContainedObject.PlayerEntered();
+                }
+                */
+
+                if (cellData.ContainedObject == null)
+                {
+                    MoveTo(newCellTarget);
+                }
+                else if(cellData.ContainedObject.PlayerWantsToEnter())
+                {
+                    MoveTo(newCellTarget);
+                    //call PlayEntered after moving the player! otherwise not in cell yet
+                    cellData.ContainedObject.PlayerEntered();
                 }
             }
         }
