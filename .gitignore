@@ -25,3 +25,6 @@ sysinfo.txt
 
 # Visual Studio cache directory
 .vs/
+
+# JetBrains Rider / IntelliJ
+.idea/
