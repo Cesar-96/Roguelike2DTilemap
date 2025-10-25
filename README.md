@@ -18,13 +18,9 @@ Un **proyecto Roguelike 2D** desarrollado en **Unity 6000.2.8f1**, utilizando el
 
 ## 📦 Paquetes usados (Unity Package Manager)
 
-| Paquete | Descripción |
+| Proyecto | Descripción |
 |----------|-------------|
-| **2D Sprite** | Permite trabajar con sprites, sorting layers y animaciones. |
-| **2D Tilemap Editor** | Herramientas para pintar y gestionar tilemaps. |
-| **2D Tilemap Extras** | Incluye tiles de reglas, animados y otras utilidades. |
-| **Input System** | Sistema moderno de control para teclado/controlador. |
-| **Cinemachine** *(opcional)* | Cámara dinámica que sigue al jugador. |
+| **Universal 2D ** | Brinda todo el soporte para trabajar en 2D. |
 
 
 ## ⚙️ Cómo ejecutar el proyecto
